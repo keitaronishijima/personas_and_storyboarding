@@ -3,20 +3,29 @@ import "./App.css";
 function App() {
   return (
     <div className="">
-      <div className="px-4 py-2 bg-violet-700 text-4xl font-bold">
-        Personas & Storyboarding
+      <div className="px-4 py-4 bg-violet-700 text-4xl font-bold">
+        Assignment 1: Personas & Storyboarding
+      </div>
+      <div className="px-4 py-2">
+        <h1 className="text-2xl underline font-bold">Project Overview</h1>
+        <p className="py-2">
+          I individually observed three real users interacting with an interface
+          and interviewed them about their experiences. I then created personas
+          based on the users and illustrated a storyboard for one of the
+          personas.
+        </p>
       </div>
       <div className="px-4 py-2 flex-col flex-1 basis-0 grow flex-wrap">
         <div className="text-2xl">
-          <h2 className="underline">Part 1: Preparation</h2>
+          <h2 className="underline font-bold">Part 1: Preparation</h2>
           <p className="text-base pb-2">
             {" "}
-            I chose my favorite espresso machine as an accessible interface
+            To start with, I chose my favorite espresso machine as an accessible interface
             because it is currently placed in a common space in the building I
-            am living in.
+            am living in and anyone living in my dorm could use it.
           </p>
           <p className="text-base pb-2">
-            And some of the questions I came up with are ...
+            Below are some of the questions I came up with prior to conducting research on UI design of the machine.
           </p>
           <div className="text-base">
             <ul>
@@ -37,9 +46,14 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="text-2xl">
-          <h2 className="underline">Part 2: Recording Observations</h2>
-          <p className="text-lg">I interviewed three people and observe them using the espresso machine interface. Here are the key observations and personas.</p>
+        <div className="text-2xl py-2">
+          <h2 className="underline font-bold">
+            Part 2: Recording Observations
+          </h2>
+          <p className="text-lg">
+            I interviewed three people and observe them using the espresso
+            machine interface. Here are the key observations and personas.
+          </p>
           <div className="text-base">
             <ul>
               <span className="font-bold py-1 text-cyan-400 text-lg">
@@ -99,8 +113,8 @@ function App() {
             </ol>
           </div>
         </div>
-        <div className="text-2xl">
-          <h2 className="underline">Part 3: Personas</h2>
+        <div className="text-2xl py-2">
+          <h2 className="underline font-bold">Part 3: Personas</h2>
           <div className="text-base">
             Here are two personas I created.
             <img
@@ -161,7 +175,7 @@ function App() {
           </div>
         </div>
         <div className="text-2xl">
-          <h2 className="underline">Part 4: Storyboards</h2>
+          <h2 className="underline font-bold">Part 4: Storyboards</h2>
           <p className="py-2 text-base">
             Here is the storyboard I created for the persona 1.{" "}
           </p>
@@ -174,7 +188,8 @@ function App() {
               />
               <p>
                 A university student, Z, is stressed out because he needs to
-                finish his assignments but he has no energy. He is craving some caffeine to boost his motivation.
+                finish his assignments but he has no energy. He is craving some
+                caffeine to boost his motivation.
               </p>
             </div>
             <div>
@@ -183,7 +198,10 @@ function App() {
                 alt=""
                 className="max-w-sm py-2"
               />
-              <p>He reaches out to the espresso machine and grabs the handle so he can set the espresso capsule.</p>
+              <p>
+                He reaches out to the espresso machine and grabs the handle so
+                he can set the espresso capsule.
+              </p>
             </div>
             <div>
               <img
@@ -191,7 +209,10 @@ function App() {
                 alt=""
                 className="max-w-sm py-2"
               />
-              <p>He then brings up the handle and places the espresso capsule in a small space.</p>
+              <p>
+                He then brings up the handle and places the espresso capsule in
+                a small space.
+              </p>
             </div>
             <div>
               <img
@@ -199,7 +220,10 @@ function App() {
                 alt=""
                 className="max-w-sm py-2"
               />
-              <p>Then, grabs the handle and closes the machine. Now he is ready to brew some espresso!</p>
+              <p>
+                Then, grabs the handle and closes the machine. Now he is ready
+                to brew some espresso!
+              </p>
             </div>
             <div>
               <img
@@ -207,7 +231,10 @@ function App() {
                 alt=""
                 className="max-w-sm py-2"
               />
-              <p>He then places the coffee cup in the front of the machine. Until this point, he had no problem how to use the machine.</p>
+              <p>
+                He then places the coffee cup in the front of the machine. Until
+                this point, he had no problem how to use the machine.
+              </p>
             </div>
             <div>
               <img
@@ -215,7 +242,11 @@ function App() {
                 alt=""
                 className="max-w-sm py-2"
               />
-              <p>Since there is no power button, he was unsure where to press on the machine, so he decided to press one of the two buttons on top.</p>
+              <p>
+                Since there is no power button, he was unsure where to press on
+                the machine, so he decided to press one of the two buttons on
+                top.
+              </p>
             </div>
             <div>
               <img
@@ -223,7 +254,12 @@ function App() {
                 alt=""
                 className="max-w-sm py-2"
               />
-              <p>After pressing the two buttons, the two buttons starts to flash, so he thought the power is on now. However, the machine did not automatically start breweing, he decided to press the button on the right with larger coffee cup icon on top.</p>
+              <p>
+                After pressing the two buttons, the two buttons starts to flash,
+                so he thought the power is on now. However, the machine did not
+                automatically start breweing, he decided to press the button on
+                the right with larger coffee cup icon on top.
+              </p>
             </div>
             <div>
               <img
@@ -231,7 +267,12 @@ function App() {
                 alt=""
                 className="max-w-sm py-2"
               />
-              <p>As a result, the machine finally starts to brew espresso. At this point, he is a little more frustrated because of the unclear instructions on the machine and took a while to figure out how to use it.</p>
+              <p>
+                As a result, the machine finally starts to brew espresso. At
+                this point, he is a little more frustrated because of the
+                unclear instructions on the machine and took a while to figure
+                out how to use it.
+              </p>
             </div>
           </div>
         </div>
