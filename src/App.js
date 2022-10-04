@@ -39,6 +39,7 @@ function App() {
         </div>
         <div className="text-2xl">
           <h2 className="underline">Part 2: Recording Observations</h2>
+          <p className="text-lg">I interviewed three people and observe them using the espresso machine interface. Here are the key observations and personas.</p>
           <div className="text-base">
             <ul>
               <span className="font-bold py-1 text-cyan-400 text-lg">
@@ -107,6 +108,7 @@ function App() {
               alt=""
               className="max-w-sm py-2"
             />
+            <span className="text-2xl text-cyan-400">Persona 1</span>
             <ul className="py-2">
               <li>
                 {" "}
@@ -135,6 +137,7 @@ function App() {
               className="max-w-sm py-2"
             />
           </div>
+          <span className="text-cyan-400">Persona 2</span>
           <div className="text-base">
             <ul className="py-2">
               <li>
@@ -158,7 +161,79 @@ function App() {
           </div>
         </div>
         <div className="text-2xl">
-          <h2>Part 4: Storyboards</h2>
+          <h2 className="underline">Part 4: Storyboards</h2>
+          <p className="py-2 text-base">
+            Here is the storyboard I created for the persona 1.{" "}
+          </p>
+          <div className="text-base">
+            <div>
+              <img
+                src={require("./s0.jpeg")}
+                alt=""
+                className="max-w-sm py-2"
+              />
+              <p>
+                A university student, Z, is stressed out because he needs to
+                finish his assignments but he has no energy. He is craving some caffeine to boost his motivation.
+              </p>
+            </div>
+            <div>
+              <img
+                src={require("./s1.jpeg")}
+                alt=""
+                className="max-w-sm py-2"
+              />
+              <p>He reaches out to the espresso machine and grabs the handle so he can set the espresso capsule.</p>
+            </div>
+            <div>
+              <img
+                src={require("./s3.jpeg")}
+                alt=""
+                className="max-w-sm py-2"
+              />
+              <p>He then brings up the handle and places the espresso capsule in a small space.</p>
+            </div>
+            <div>
+              <img
+                src={require("./s6.jpeg")}
+                alt=""
+                className="max-w-sm py-2"
+              />
+              <p>Then, grabs the handle and closes the machine. Now he is ready to brew some espresso!</p>
+            </div>
+            <div>
+              <img
+                src={require("./s7.jpeg")}
+                alt=""
+                className="max-w-sm py-2"
+              />
+              <p>He then places the coffee cup in the front of the machine. Until this point, he had no problem how to use the machine.</p>
+            </div>
+            <div>
+              <img
+                src={require("./s8.jpeg")}
+                alt=""
+                className="max-w-sm py-2"
+              />
+              <p>Since there is no power button, he was unsure where to press on the machine, so he decided to press one of the two buttons on top.</p>
+            </div>
+            <div>
+              <img
+                src={require("./s9.jpeg")}
+                alt=""
+                className="max-w-sm py-2"
+              />
+              <p>After pressing the two buttons, the two buttons starts to flash, so he thought the power is on now. However, the machine did not automatically start breweing, he decided to press the button on the right with larger coffee cup icon on top.</p>
+            </div>
+            <div>
+              <img
+                src={require("./s10.jpeg")}
+                alt=""
+                className="max-w-sm py-2"
+              />
+              <p>As a result, the machine finally starts to brew espresso. At this point, he is a little more frustrated because of the unclear instructions on the machine and took a while to figure out how to use it.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
